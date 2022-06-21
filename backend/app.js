@@ -6,7 +6,8 @@ const cors = require('cors');
 const bodyParser = require('body-parser')
 const { stream } = require('./utils/logger');
 const { notFound, errorHandler } = require('./errors/handler');
-const { IS_DEV } = require('./env');
+const session = require('express-session');
+const { IS_DEV, SESSION_KEY} = require('./env');
 const auth = require('./routes/auth')
 const app = express();
 
@@ -19,9 +20,21 @@ app.use(cors({
     origin:true,
     credentials: true
 }));
+app.use(
+    session({
+        name: "session.sid",
+        resave: false,
+        saveUninitialized: false,
+        secret: SESSION_KEY,
+        cookie: {
+            secure: false,
+            maxAge: 10 * 1000 * 60 * 60 * 24,
+        }
+    })
+)
 app.use(bodyParser.json())
 
-app.use(auth);
+app.use("/auth", auth);
 app.use(notFound);
 app.use(errorHandler);
 

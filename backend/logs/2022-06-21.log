@@ -1,0 +1,513 @@
+2022-06-21 14:47:09|DEBUG|Sever running on 8000
+2022-06-21 15:10:00|ERROR|uncaughtException: Cannot find module '../../m'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../../m'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:10:55|ERROR|uncaughtException: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js:4:15)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:15:15|ERROR|uncaughtException: Cannot find module '../constants'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\models\user.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../constants'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\models\user.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\models\user.js:2:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:15:48|ERROR|uncaughtException: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:16:05|ERROR|uncaughtException: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:16:21|ERROR|uncaughtException: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:16:34|ERROR|uncaughtException: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:16:42|ERROR|uncaughtException: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:16:46|ERROR|uncaughtException: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../models/token'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:16:58|ERROR|uncaughtException: Cannot find module '../configs'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../configs'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js:4:65)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:18:59|ERROR|uncaughtException: Cannot find module '../'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js:4:65)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:19:03|ERROR|uncaughtException: Cannot find module '../'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js:4:65)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:21:15|ERROR|uncaughtException: Cannot find module '../'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js:4:65)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:21:18|ERROR|uncaughtException: Cannot find module '../'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\service.js:4:65)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:21:35|ERROR|uncaughtException: Cannot find module '../configs'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\utils\mail.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+Error: Cannot find module '../configs'
+Require stack:
+- C:\Users\kim\WebstormProjects\hanum\backend\utils\mail.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\controller.js
+- C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js
+- C:\Users\kim\WebstormProjects\hanum\backend\app.js
+- C:\Users\kim\WebstormProjects\hanum\backend\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\utils\mail.js:1:68)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-06-21 15:21:55|ERROR|uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\kim\WebstormProjects\hanum\backend\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (C:\Users\kim\WebstormProjects\hanum\backend\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\app.js:10:14)
+2022-06-21 15:22:13|DEBUG|Sever running on 8000
+2022-06-21 15:23:08|ERROR|uncaughtException: requiredLogin is not defined
+ReferenceError: requiredLogin is not defined
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js:7:18)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\app.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+2022-06-21 15:23:54|ERROR|uncaughtException: requiredLogin is not defined
+ReferenceError: requiredLogin is not defined
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js:7:18)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\app.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+2022-06-21 15:23:58|ERROR|uncaughtException: requiredLogin is not defined
+ReferenceError: requiredLogin is not defined
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js:7:18)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\app.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+2022-06-21 15:24:05|ERROR|uncaughtException: requiredLogin is not defined
+ReferenceError: requiredLogin is not defined
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\routes\auth\index.js:7:18)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\app.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+2022-06-21 15:24:18|DEBUG|Sever running on 8000
+2022-06-21 15:29:28|INFO|[0mGET / [33m404[0m 2.996 ms - 1006[0m
+
+2022-06-21 15:30:00|INFO|[0mGET /register [33m404[0m 1.080 ms - 1006[0m
+
+2022-06-21 15:30:01|INFO|[0mGET /register [33m404[0m 0.633 ms - 1006[0m
+
+2022-06-21 15:30:52|DEBUG|Sever running on 8000
+2022-06-21 15:30:54|INFO|[0mGET /register [33m404[0m 3.113 ms - 1006[0m
+
+2022-06-21 15:31:02|INFO|[0mGET /auth/register [33m404[0m 1.430 ms - 1006[0m
+
+2022-06-21 15:32:00|INFO|[0mGET /auth/register [33m404[0m 0.794 ms - 1006[0m
+
+2022-06-21 15:32:08|DEBUG|Sever running on 8000
+2022-06-21 15:32:21|INFO|[0mGET /auth/register [33m404[0m 2.697 ms - 1006[0m
+
+2022-06-21 15:34:19|INFO|[0mGET /auth/register [33m404[0m 0.944 ms - 1006[0m
+
+2022-06-21 15:34:27|INFO|[0mPOST /auth/register [31m500[0m 13.691 ms - 467[0m
+
+2022-06-21 15:34:59|INFO|[0mPOST /auth/register [33m400[0m 1675.097 ms - 445[0m
+
+2022-06-21 15:35:40|INFO|[0mPOST /auth/register [33m400[0m 4.837 ms - 377[0m
+
+2022-06-21 15:36:25|INFO|[0mPOST /auth/register [32m200[0m 3428.333 ms - 355[0m
+
+2022-06-21 15:39:08|DEBUG|Sever running on 8000
+2022-06-21 15:39:29|INFO|[0mPOST /auth/ [33m404[0m 10.349 ms - 1006[0m
+
+2022-06-21 15:39:39|INFO|[0mPOST /auth/login [31m500[0m 264.363 ms - 382[0m
+
+2022-06-21 15:40:26|ERROR|uncaughtException: session is not defined
+ReferenceError: session is not defined
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\app.js:22:5)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\index.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+2022-06-21 15:40:46|ERROR|uncaughtException: session is not defined
+ReferenceError: session is not defined
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\app.js:22:5)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\index.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+2022-06-21 15:40:50|ERROR|uncaughtException: SESSION_SECRET is not defined
+ReferenceError: SESSION_SECRET is not defined
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\app.js:28:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\index.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+2022-06-21 15:42:08|ERROR|uncaughtException: SESSION_SECRET is not defined
+ReferenceError: SESSION_SECRET is not defined
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\app.js:28:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\index.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+2022-06-21 15:42:19|ERROR|uncaughtException: SESSION_SECRET is not defined
+ReferenceError: SESSION_SECRET is not defined
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\app.js:28:17)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\kim\WebstormProjects\hanum\backend\index.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+2022-06-21 15:42:53|DEBUG|Sever running on 8000
+2022-06-21 15:42:58|INFO|[0mPOST /auth/login [32m200[0m 275.863 ms - 89[0m
+

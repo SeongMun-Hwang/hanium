@@ -1,1 +1,78 @@
-<p>test</p>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/map.css">
+    <script src="map.js"></script>
+    <link rel="stylesheet" href="map.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid menubar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">항만관제시스템</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown active">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="menuicon glyphicon glyphicon-headphones"></span> Service Center
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><span class="menuicon glyphicon glyphicon-bullhorn"></span>
+                            Notice</a></li>
+                        <li><a href="#"><span class="menuicon glyphicon glyphicon-question-sign"></span>
+                            Q&A</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="menuicon glyphicon glyphicon-user"></span> Account
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><span class="menuicon glyphicon glyphicon-log-in"></span> Log
+                            in</a></li>
+                        <li><a href="#"><span class="menuicon glyphicon glyphicon-new-window"></span>
+                            Sign up</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="welcomename" style="display:none;"></a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<div id="main" class="col-sm-12 container-fluid">
+    <div class="col-sm-4 info">
+        <div class="search">
+            <p>배 검색</p>
+            <input type="text" name="" id="">
+            <button class="btn">search</button>
+        </div>
+        <div class="list">
+            <p>운항리스트</p>
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+
+    </div>
+    <div id="map" class="col-sm-8" style="height:500px"></div>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=
+AIzaSyCaTH2C0PeE_3eRaTNPzntN2FvKmZBAFA8&callback=myMap&language=ko&region=KR"></script>
+</body>
+</html>

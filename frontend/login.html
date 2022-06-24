@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +11,7 @@
     <script src="map.js"></script>
     <link rel="stylesheet" href="map.css">
 </head>
+
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid menubar">
@@ -25,7 +25,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown active">
+                <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         <span class="menuicon glyphicon glyphicon-headphones"></span> 고객센터
                         <span class="caret"></span></a>
@@ -42,7 +42,7 @@
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#"><span class="menuicon glyphicon glyphicon-log-in"></span> 로그인
-                        </a></li>
+                            </a></li>
                         <li><a href="#"><span class="menuicon glyphicon glyphicon-new-window"></span>
                             회원가입 </a></li>
                     </ul>
@@ -54,37 +54,14 @@
     </div>
 </nav>
 <div id="main" class="col-sm-12 container-fluid">
-    <div class="col-sm-4 info">
-        <div class="weather">
-            <p>날씨정보</p>
-            <table border="1" class="table">
-                <tr>
-                    <th>풍속</th>
-                    <th>풍향</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        </div>
-        <div class="search">
-            <p>배 검색</p>
-            <input type="text" name="" id="">
-            <button class="btn">search</button>
-        </div>
-        <div class="list">
-            <p>운항리스트</p>
-            <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ol>
-        </div>
+    <h1>로그인</h1>
+    <div>
+        <input type="text" placeholder="아이디">
     </div>
-    <div id="map" class="col-sm-8" style="height:500px"></div>
+    <div>
+        <input type="text" placeholder="비밀번호">
+    </div>
+    <a href="signup.html">회원가입</a>
 </div>
-<script src="https://maps.googleapis.com/maps/api/js?key=
-AIzaSyCaTH2C0PeE_3eRaTNPzntN2FvKmZBAFA8&callback=myMap&language=ko&region=KR"></script>
 </body>
 </html>

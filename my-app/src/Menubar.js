@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from "./logo.jpg";
+import {LinkContainer} from 'react-router-bootstrap'
 
 const Menubar = () => {
     return <div>
@@ -18,8 +19,11 @@ const Menubar = () => {
                             <NavDropdown.Item href="#action/3.2">질의응답</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="계정" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">로그인</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">회원가입</NavDropdown.Item>
+                            <LinkContainer to="/Login">
+                                <NavDropdown.Item href="#action/3.2">로그인</NavDropdown.Item>
+                            </LinkContainer>
+
+                            <NavDropdown.Item>회원가입</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
